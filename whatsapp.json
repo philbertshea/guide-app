@@ -1,0 +1,12 @@
+{
+    "send_image": [
+        {
+            "img": "/whatsapp/wa_home.jpeg",
+            "bottom_percent": 0.8,
+            "right_percent": 0,
+            "height_percent": 0.09,
+            "width_percent": 1
+
+        }
+    ]
+}
