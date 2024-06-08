@@ -6,15 +6,19 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
       <Menu />
-      <div className="flex flex-row w-full h-full p-2">
-        <div className="w-full place-content-center justify-center p-5">
-          Select one guide to access.
+      <div className="flex flex-col w-full h-full p-2">
+        <div className="w-full justify-center p-5">
+          <h1 className="font-bold text-xl">Choose an app.</h1>
         </div>
-        <div className="flex flex-col h-full w-full place-content-center justify-center p-5">
-          <Link className="bg-green-500 text-xl text-white" key="whatsapp" href="/whatsapp">WhatsApp</Link>
-          <Link className="bg-green-500 text-xl text-white" key="whatsapp" href="/whatsapp">Facebook</Link>
-          <Link className="bg-green-500 text-xl text-white" key="whatsapp" href="/whatsapp">Instagram</Link>
-        </div>
+        <Link className="border-4 border-green-700 bg-green-500 p-5 m-5 rounded-lg" key="whatsapp" href="/whatsapp">
+          <h2 className="text-xl text-white text-center">WhatsApp</h2>
+        </Link>
+        <Link className="border-4 border-blue-700 bg-blue-500 p-5 m-5 rounded-lg" key="facebook" href="/facebook">
+          <h2 className="text-xl text-white text-center">Facebook</h2>
+        </Link>
+        <Link className="border-4 border-red-700 bg-red-500 p-5 m-5 rounded-lg" key="singpass" href="/singpass">
+          <h2 className="text-xl text-white text-center">Singpass</h2>
+        </Link>
       </div>
     </main>
   );

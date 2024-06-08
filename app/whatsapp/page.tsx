@@ -1,28 +1,22 @@
 import Image from "next/image";
 import Menu from "@/app/ui/menu";
+import Link from "next/link";
 const HEIGHT_TO_WIDTH = 2400/1080;
 
 export default function WhatsappPage() {
-  
   return (
     <main className="flex flex-col items-center justify-center">
       <Menu />
-      <div className={`relative overflow-hidden flex items-center justify-center flex-col w-[calc(100vw-(100vh-60px)/${HEIGHT_TO_WIDTH})] h-[calc(100vh-60px)]`}>
-        <Image 
-        className="img-bg"
-        alt="whatsapp_home"
-        src="/whatsapp/wa_home.jpeg"
-        width={0}
-        height={0}
-        sizes="100vh"
-        style={{ height: '100%', width: 'auto'}}
-        />     
-        <div className="absolute w-full h-[calc((100vh-60px)*0.09)] bottom-[calc((100vh-60px)*0.81)] right-0 flex">
-          <button className="text-xl w-full rounded border-blue-200"></button>
+      <div className="flex flex-col w-full h-full p-2">
+        <div className="w-full justify-center p-5">
+          <h1 className="font-bold text-xl">Choose a guide.</h1>
         </div>
-        <div className="absolute w-full h-[calc((100vh-60px)*0.09)] bottom-[calc((100vh-60px)*0.81)] right-0 flex">
-          <h2 className="text-xl w-full rounded text-blue-600"></h2>
-        </div>
+        <Link className="border-4 border-green-700 bg-green-500 p-5 m-5 rounded-lg" key="send_image" href="/whatsapp/send_image/1">
+          <h2 className="text-xl text-white text-center">WhatsApp: Send Image</h2>
+        </Link>
+        <Link className="border-4 border-green-700 bg-green-500 p-5 m-5 rounded-lg" key="send_location" href="/whatsapp/send_location/1">
+          <h2 className="text-xl text-white text-center">WhatsApp: Send Location</h2>
+        </Link>
       </div>
     </main>
   );
