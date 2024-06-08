@@ -31,7 +31,7 @@ export default function WhatsappPage() {
           style={{ height: '100%', width: 'auto'}}/>
         </div>
         <div className="absolute w-[calc((100vh-60px)/2.223*0.5)] h-[calc((100vh-60px)*0.2)] bottom-[calc((100vh-60px)*0.6)] right-[calc((100vh-60px)/2.223*0.1)] flex bg-white border-2 border-blue-400">
-          <h2 className="text-xl w-full rounded text-blue-600 justify-center p-3">Select "Gallery"</h2>
+          <h2 className="text-xl w-full rounded text-blue-600 justify-center p-3">Select Gallery</h2>
         </div>
       </div>
     </main>
