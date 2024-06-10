@@ -9,19 +9,19 @@ export default function WhatsappPage() {
       <Menu />
       <div className="flex flex-col w-full h-full p-2">
         <div className="w-full justify-center p-5">
-          <h1 className="font-bold text-xl">Choose a DBS Paylah! guide.</h1>
+          <h1 className="font-bold text-xl">Choose a DBS PayLah! guide.</h1>
         </div>
         <div className="w-full justify-center pt-5 pb-2">
           <h1 className="font-bold text-xl text-center">Make a Payment</h1>
         </div>
         <Link className="border-4 border-green-700 bg-green-500 p-2 m-1 rounded-lg" key="pay_qr" href="/paylah/pay_num/1">
-          <h2 className="text-xl text-white text-center">Pay via Phone Number to Paylah User</h2>
+          <h2 className="text-xl text-white text-center">Pay via Phone Number to PayLah! User</h2>
         </Link>
         <Link className="border-4 border-green-700 bg-green-500 p-2 m-1 rounded-lg" key="pay_qr" href="/paylah/pay_qr/1">
-          <h2 className="text-xl text-white text-center">Pay via QR to Paylah User</h2>
+          <h2 className="text-xl text-white text-center">Pay via QR to PayLah! User</h2>
         </Link>
         <Link className="border-4 border-green-700 bg-green-500 p-2 m-1 rounded-lg" key="pay_qr" href="/paylah/shop_qr/1">
-          <h2 className="text-xl text-white text-center">Pay via QR to Merchant</h2>
+          <h2 className="text-xl text-white text-center">Pay via QR to PayLah! Merchant</h2>
         </Link>
         <div className="w-full justify-center pt-5 pb-2">
           <h1 className="font-bold text-xl text-center">Main Menu</h1>

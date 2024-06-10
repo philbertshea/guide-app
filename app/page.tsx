@@ -14,7 +14,7 @@ export default function Home() {
           <h2 className="text-xl text-white text-center">WhatsApp</h2>
         </Link>
         <Link className="border-4 border-blue-700 bg-blue-500 p-5 m-5 rounded-lg" key="paylah" href="/paylah">
-          <h2 className="text-xl text-white text-center">Paylah</h2>
+          <h2 className="text-xl text-white text-center">PayLah!</h2>
         </Link>
         <Link className="border-4 border-red-700 bg-red-500 p-5 m-5 rounded-lg" key="singpass" href="/singpass">
           <h2 className="text-xl text-white text-center">Singpass</h2>
