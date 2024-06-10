@@ -13,8 +13,8 @@ export default function Home() {
         <Link className="border-4 border-green-700 bg-green-500 p-5 m-5 rounded-lg" key="whatsapp" href="/whatsapp">
           <h2 className="text-xl text-white text-center">WhatsApp</h2>
         </Link>
-        <Link className="border-4 border-blue-700 bg-blue-500 p-5 m-5 rounded-lg" key="facebook" href="/facebook">
-          <h2 className="text-xl text-white text-center">Facebook</h2>
+        <Link className="border-4 border-blue-700 bg-blue-500 p-5 m-5 rounded-lg" key="paylah" href="/paylah">
+          <h2 className="text-xl text-white text-center">Paylah</h2>
         </Link>
         <Link className="border-4 border-red-700 bg-red-500 p-5 m-5 rounded-lg" key="singpass" href="/singpass">
           <h2 className="text-xl text-white text-center">Singpass</h2>
