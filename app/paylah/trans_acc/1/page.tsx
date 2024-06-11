@@ -18,7 +18,7 @@ export default function PaylahPage() {
         style={{ height: '100%', width: 'auto'}}
         />     
         <div className="absolute w-[calc((100vh-60px)/2.223*0.2)] h-[calc((100vh-60px)*0.09)] bottom-[calc((100vh-60px)*0.35)] right-[calc((100vh-60px)/2.223*0.6)] flex">
-          <Link href="/paylah/shop_qr/2" className="text-xl w-full rounded border-4 border-blue-800 bg-blue-100 opacity-50"></Link>
+          <Link href="/paylah/trans_acc/2" className="text-xl w-full rounded border-4 border-blue-800 bg-blue-100 opacity-50"></Link>
         </div>
         <div className="absolute animate-bounce w-[calc((100vh-60px)/2.223*0.3)] h-[calc((100vh-60px)*0.15)] bottom-[calc((100vh-60px)*0.15)] right-[calc((100vh-60px)/2.223*0.55)] flex justify-center">
           <Image

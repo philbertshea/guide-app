@@ -30,7 +30,7 @@ export default function PaylahPage() {
           style={{ height: '100%', width: 'auto'}}/>
         </div>
         <div className="absolute w-[calc((100vh-60px)/2.223*0.5)] h-[calc((100vh-60px)*0.1)] bottom-[calc((100vh-60px)*0.32)] right-[calc((100vh-60px)/2.223*0.25)] flex bg-white border-2 border-blue-400">
-          <h2 className="text-xl w-full rounded text-blue-600 justify-center p-3">Press Log In</h2>
+          <h2 className="text-xl w-full rounded text-blue-600 justify-center p-3">Log In</h2>
         </div>
         <div className="absolute w-full h-[calc((100vh-60px)*0.03)] bottom-[calc((100vh-60px)*0.72)] right-0 bg-white flex">
           <h2 className="text-md w-full rounded text-black text-center p-1">Enter password</h2>
